@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-scroll";
 
 const Navbar: React.FC = () => {
   return (
@@ -8,13 +8,12 @@ const Navbar: React.FC = () => {
         <Link to="/" className="logo">
           <img src="/logo.png" alt="Logo" className="max-w-[200px] h-auto"/>
         </Link>
-
-        <ul className="flex space-x-6">
-          <li><Link to="/" className="text-gray-800 hover:text-blue-500 font-medium">Home</Link></li>
-          <li><Link to="/about" className="text-gray-800 hover:text-blue-500 font-medium">About</Link></li>
-          <li><Link to="/skills" className="text-gray-800 hover:text-blue-500 font-medium">Skills</Link></li>
-          <li><Link to="/projects" className="text-gray-800 hover:text-blue-500 font-medium">Projects</Link></li>
-          <li><Link to="/contact" className="text-gray-800 hover:text-blue-500 font-medium">Contact</Link></li>
+        <ul className="flex space-x-12">
+          <li><Link to="home" smooth={true} duration={500} className="text-gray-800 hover:text-blue-500 font-medium">Home</Link></li>
+          <li><Link to="about" smooth={true} duration={500} className="text-gray-800 hover:text-blue-500 font-medium">About</Link></li>
+          <li><Link to="skills" smooth={true} duration={500} className="text-gray-800 hover:text-blue-500 font-medium">Skills</Link></li>
+          <li><Link to="projects" smooth={true} duration={500} className="text-gray-800 hover:text-blue-500 font-medium">Projects</Link></li>
+          <li><Link to="contact" smooth={true} duration={500} className="text-gray-800 hover:text-blue-500 font-medium">Contact</Link></li>
         </ul>
       </div>
     </nav>
