@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const AboutContent:React.FC = () => {
   return (
-    <div className='ml-20 mb-4 mt-6 tracking-wide flex flex-col gap-1 text-stone-600'>
+    <div className='ml-4 sm:ml-8 md:ml-12 lg:ml-20 mb-4 mt-20 tracking-wide flex flex-col gap-1 text-stone-600'>
       <p className='font-SMUSnow font-extrabold text-gray-800 text-lg md:text-xl mb-8'>About Me</p>
       <p className='text-sm sm:text-base lg:text-lg md:text-lg'>
         Hi, I'm Joy, a frontend developer. 
