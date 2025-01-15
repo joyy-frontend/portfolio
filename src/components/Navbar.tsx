@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
   return (
     <nav className="w-full bg-white shadow-none">
       <div className="flex items-center justify-between px-6 py-4">
-        <Link to="/" className="logo">
+        <Link to="/" className="logo ml-12">
           <img src="/logo.png" alt="Logo" className="max-w-[200px] h-auto cursor-pointer"/>
         </Link>
         <ul className="flex space-x-12">
