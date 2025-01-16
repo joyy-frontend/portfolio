@@ -3,7 +3,7 @@ import React from 'react'
 const Skills: React.FC = () => {
   return (
     <>
-      <p className='font-SMUSnow font-extrabold text-[#DFAF8E] text-3xl md:text-4xl mb-8 text-center mt-8'>
+      <p className='font-SMUSnow font-extrabold text-[#DFAF8E] text-3xl md:text-4xl mb-8 text-center mt-20'>
         Skills
       </p>
 
@@ -13,17 +13,23 @@ const Skills: React.FC = () => {
           <div className='skill bg-white-100 border-[3px] border-[#DFAF8E] p-4 text-center'>
             <p className='font-bold text-lg'>HTML5 / CSS3</p>
             <ul className="text-lg text-gray-600 list-disc list-outside space-y-2 leading-relaxed pl-6 text-left mt-4">
-              <li>When designing web services, I focus not only on the visual aspects but also on creating semantic markup structures.</li>
-              <li>I adhere to web standards and strive to improve web accessibility.</li>
-              <li>I am capable of creating responsive web designs.</li>
+              {/* User focuses on semantic markup in web design.
+User adheres to web standards and works to improve accessibility.
+User creates responsive web designs. */}
+              <li>Focuses on semantic markup in web design.</li>
+              <li>Adheres to web standards and works to improve accessibility.</li>
+              <li>Creates responsive web designs.</li>
             </ul>
           </div>
           <div className='skill bg-white-100 border-[3px] border-[#DFAF8E] p-4 text-center'>
             <p className='font-bold text-lg'>JavaScript / TypeScript</p>
             <ul className="text-lg text-gray-600 list-disc list-outside space-y-2 leading-relaxed pl-6 text-left mt-4">
-              <li>Skilled in JavaScript and TypeScript for building dynamic and interactive web applications.</li>
+              {/* Skilled in JavaScript and TypeScript for building dynamic and interactive web applications.</li>
               <li>I have hands-on experience with ES6+ features, asynchronous programming, and working with JavaScript frameworks such as React.</li>
-              <li>Strong understanding of type safety and code scalability using TypeScript in large-scale projects.</li>
+              <li>Strong understanding of type safety and code scalability using TypeScript in large-scale projects. */}
+              <li>Skilled in JavaScript and TypeScript for dynamic web applications.</li>
+              <li>Experience with ES6+, asynchronous programming, and React.</li>
+              <li>Understands type safety and code scalability in TypeScript for large-scale projects.</li>
             </ul>
           </div>
           <div className='skill bg-white-100 border-[3px] border-[#DFAF8E] p-4 text-center'>
