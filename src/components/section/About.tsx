@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import AboutContent from '../about/AboutContent';
 import { AnimatePresence, Variants, motion, useAnimation } from 'framer-motion';
+import profile from '../../assets/images/joy_coding.jpg';
 
 const Home:React.FC = () => {
   const [showInitialMsg, setShowInitialMsg] = useState<boolean>(true);
@@ -94,14 +95,15 @@ const Home:React.FC = () => {
       } */}
       <div id='about' className='flex justify-center items-center p-0 m-0 mt-2'>
         <img 
-          src="/images/joy-profile.jpg" 
+          src='/images/joy-profile.jpg'
           alt="Profile"        
           width={600}
           height={400}
           fetchPriority="high"
-          className="profile-img rounded-lg object-cover mt-12 sm:mt-14 md:mt-16 lg:mt-20"
+          className="profile-img rounded-lg object-cover mt-12 sm:mt-14 md:mt-16 lg:mt-20 lg:ml-10"
         />
         <AboutContent />
+
       </div>
     </AnimatePresence>
   )
